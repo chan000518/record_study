@@ -31,7 +31,7 @@ const feed = (req,res) => {
 }
 const notFound = (req,res) => {
     res.statusCode = 404;
-    res.end("404 page not found")
+    res.end("404 page")
 }
 
 const urlMap = {
